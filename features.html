@@ -6,7 +6,7 @@
     <meta name="description" content="dockercli">
     <meta name="author" content="Iryna Cherniavska">
 
-        <title>dockercli · dockercli</title>
+        <title>Features · dockercli</title>
 
 
     <!-- Bootstrap core CSS -->
@@ -83,29 +83,37 @@
       <div class="col-md-8">
         <div class="row">
               <div class="page-header">
-        <h1><a href="./index">dockercli</a></h1>
+        <h1><a href="./features">Features</a></h1>
     </div>
 
         </div>
 
         <div class="row">
 <div id="page-content">
-  <p>Dockercli provides a more convenient way to enter Docker commands. It
-autocompletes commands and parameters as you type, and has syntax
-highlighting.</p>
-<p>Dockercli is a Python package. It can be installed from PyPi:</p>
-<pre class="code bash literal-block">
-<span class="nv">$ </span>pip install dockercli
-</pre>
-<p>Then run it with:</p>
-<pre class="code bash literal-block">
-<span class="nv">$ </span>dockercli
-</pre>
-<p>Once you're inside the prompt, just type in your usual Docker commands,
-except there's no need to prefix everything with &quot;docker&quot;. Example:</p>
-<pre class="code bash literal-block">
-<span class="nv">$ </span>run --detach --name foo ubuntu:14.04
-</pre>
+  <p>Dockercli provides:</p>
+<ul class="simple">
+<li>Syntax highlighting.</li>
+<li>Autocompletion.</li>
+<li>Themes.</li>
+</ul>
+<div class="section" id="container-name-autocompletion">
+<h2>Container name autocompletion.</h2>
+<p>For example:</p>
+<img alt="Container name autocompletion in ps" class="align-center" src="./images/ps-containers.png" style="width: 600px;" />
+<p>Another example:</p>
+<img alt="Container name autocompletion in rm" class="align-center" src="./images/rm-containers.png" style="width: 600px;" />
+</div>
+<div class="section" id="image-name-autocompletion">
+<h2>Image name autocompletion.</h2>
+<img alt="Image name autocompletion in rmi" class="align-center" src="./images/rmi-images.png" style="width: 600px;" />
+</div>
+<div class="section" id="handy-shortcuts">
+<h2>Handy shortcuts.</h2>
+<p>Remove all stopped containers:</p>
+<img alt="Remove all stopped containers" class="align-center" src="./images/rm-all-stopped.png" style="width: 600px;" />
+<p>Remove all dangling images:</p>
+<img alt="Remove all dangling images" class="align-center" src="./images/rmi-all-dangling.png" style="width: 600px;" />
+</div>
 
 </div>
         </div>
