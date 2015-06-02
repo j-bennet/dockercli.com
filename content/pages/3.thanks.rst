@@ -1,0 +1,10 @@
+Thanks
+======
+
+:slug: thanks
+
+* `Nik Ridder`_, for getting me hooked me on Docker.
+* `Amjith Ramanujam`_, for inspiring me with his CLI projects.
+
+.. _Nik Ridder: https://github.com/the-destro/amhappy
+.. _Amjith Ramanujam: https://github.com/dbcli/pgcli

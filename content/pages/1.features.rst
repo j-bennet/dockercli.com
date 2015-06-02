@@ -1,0 +1,52 @@
+Features
+========
+
+:slug: features
+
+Dockercli provides:
+
+* Syntax highlighting.
+* Autocompletion.
+* Themes.
+
+Container name autocompletion.
+------------------------------
+
+For example:
+
+.. image:: {filename}/images/ps-containers.png
+   :alt: Container name autocompletion in ps
+   :align: center
+   :width: 600px
+
+Another example:
+
+.. image:: {filename}/images/rm-containers.png
+   :alt: Container name autocompletion in rm
+   :align: center
+   :width: 600px
+
+Image name autocompletion.
+--------------------------
+
+.. image:: {filename}/images/rmi-images.png
+   :alt: Image name autocompletion in rmi
+   :align: center
+   :width: 600px
+
+Handy shortcuts.
+----------------
+
+Remove all stopped containers:
+
+.. image:: {filename}/images/rm-all-stopped.png
+   :alt: Remove all stopped containers
+   :align: center
+   :width: 600px
+
+Remove all dangling images:
+
+.. image:: {filename}/images/rmi-all-dangling.png
+   :alt: Remove all dangling images
+   :align: center
+   :width: 600px

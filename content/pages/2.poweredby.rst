@@ -1,0 +1,14 @@
+Powered by
+==========
+
+:slug: poweredby
+
+* `docker-py`_
+* `Python Prompt Toolkit`_
+* `tabulate`_
+* `Click`_
+
+.. _docker-py: https://github.com/docker/docker-py
+.. _Python Prompt Toolkit: http://github.com/jonathanslenders/python-prompt-toolkit
+.. _tabulate: https://pypi.python.org/pypi/tabulate
+.. _Click: http://click.pocoo.org/3/

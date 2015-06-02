@@ -1,0 +1,27 @@
+dockercli
+=========
+
+:slug: index
+
+Dockercli provides a more convenient way to enter Docker commands. It
+autocompletes commands and parameters as you type, and has syntax
+highlighting.
+
+Dockercli is a Python package. It can be installed from PyPi:
+
+.. code:: bash
+
+    $ pip install dockercli
+
+Then run it with:
+
+.. code:: bash
+
+    $ dockercli
+
+Once you're inside the prompt, just type in your usual Docker commands,
+except there's no need to prefix everything with "docker". Example:
+
+.. code:: bash
+
+    $ run --detach --name foo ubuntu:14.04
