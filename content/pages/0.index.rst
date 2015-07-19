@@ -7,6 +7,11 @@ Dockercli provides a more convenient way to enter Docker commands. It
 autocompletes commands and parameters as you type, and has syntax
 highlighting.
 
+.. image:: {filename}/images/ps-containers.png
+   :alt: Container name autocompletion in ps
+   :align: center
+   :width: 600px
+
 Dockercli is a Python package. It can be installed from PyPi:
 
 .. code:: bash
