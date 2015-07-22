@@ -12,7 +12,11 @@ highlighting.
    :align: center
    :width: 600px
 
-Dockercli is a Python package. It can be installed from PyPi:
+Dockercli is an open source Python package. 
+
+Code is available on github: https://github.com/j-bennet/dockercli
+
+It can be installed from PyPi:
 
 .. code:: bash
 
