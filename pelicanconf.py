@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Iryna Cherniavska'
 SITENAME = u'dockercli'
-SITEURL = 'http://dockercli.com'
+SITEURL = 'http://cli4docker.com'
 
 PATH = 'content'
 
