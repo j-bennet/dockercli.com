@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Iryna Cherniavska'
-SITENAME = u'dockercli'
-SITEURL = 'http://cli4docker.com'
+SITENAME = u'wharfee'
+SITEURL = 'http://wharfee.com'
 
 PATH = 'content'
 
@@ -26,7 +26,7 @@ AUTHOR_FEED_RSS = None
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('github', 'http://github.com/j-bennet/dockercli'),)
+SOCIAL = (('github', 'http://github.com/j-bennet/wharfee'),)
 
 DEFAULT_PAGINATION = 4
 

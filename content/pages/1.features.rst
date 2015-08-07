@@ -3,7 +3,7 @@ Features
 
 :slug: features
 
-Dockercli provides:
+Wharfee provides:
 
 * Syntax highlighting.
 * Autocompletion.

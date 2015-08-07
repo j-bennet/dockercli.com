@@ -3,6 +3,6 @@ Contact
 
 :slug: contact
 
-If you encountered a problem with dockercli, file an issue `here`_:
+If you encountered a problem with wharfee, file an issue `here`_:
 
-.. _here: https://github.com/j-bennet/dockercli/issues
+.. _here: https://github.com/j-bennet/wharfee/issues

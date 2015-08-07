@@ -1,9 +1,9 @@
-dockercli
-=========
+wharfee
+=======
 
 :slug: index
 
-Dockercli provides a more convenient way to enter Docker commands. It
+Wharfee provides a more convenient way to enter Docker commands. It
 autocompletes commands and parameters as you type, and has syntax
 highlighting.
 
@@ -12,21 +12,21 @@ highlighting.
    :align: center
    :width: 600px
 
-Dockercli is an open source Python package. 
+Wharfee is an open source Python package.
 
-Code is available on github: https://github.com/j-bennet/dockercli
+Code is available on github: https://github.com/j-bennet/wharfee
 
 It can be installed from PyPi:
 
 .. code:: bash
 
-    $ pip install dockercli
+    $ pip install wharfee
 
 Then run it with:
 
 .. code:: bash
 
-    $ dockercli
+    $ wharfee
 
 Once you're inside the prompt, just type in your usual Docker commands,
 except there's no need to prefix everything with "docker". Example:
