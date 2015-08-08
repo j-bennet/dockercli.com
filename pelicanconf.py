@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Iryna Cherniavska'
+AUTHORS = u'Iryna Cherniavska'
 SITENAME = u'wharfee'
 SITEURL = 'http://wharfee.com'
 
@@ -51,4 +52,5 @@ MENUITEMS = [
     ('Powered by', '/poweredby.html'),
     ('Thanks', '/thanks.html'),
     ('Contact', '/contact.html'),
+    ('Blog', '/category/blog.html'),
 ]
