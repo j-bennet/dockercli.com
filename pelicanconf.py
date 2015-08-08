@@ -39,12 +39,16 @@ PAGE_SAVE_AS = '{slug}.html'
 
 DIRECT_TEMPLATES = {}
 
-STATIC_PATHS = {'images', 'extra/CNAME'}
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = {'images', 'extra/CNAME', 'extra/custom.css'}
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/custom.css': {'path': 'styles/custom.css'}
+}
 
 THEME = '../pelican-themes/chameleon'
 #BS3_THEME = 'http://bootswatch.com/simplex/bootstrap.min.css'
 BS3_THEME = 'http://bootswatch.com/flatly/bootstrap.min.css'
+CSS_OVERWRITE = 'styles/custom.css'
 
 MENUITEMS = [
     ('Home', '/'),

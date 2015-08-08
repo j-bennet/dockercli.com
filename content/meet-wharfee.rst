@@ -14,10 +14,11 @@ comply with a legal request_. Wharfee, according to wikipedia_, is a synonym
 for someone who works in the docks. And I thought it's a cute word...
 very important!
 
-.. image:: {filename}/images/ps-containers.png
+.. image:: {filename}/images/wharfee-demo.gif
    :alt: Autocompletion in wharfee
    :align: center
    :width: 600px
+   :class: shadow
 
 .. _wharfee: http://wharfee.com
 .. _request: https://github.com/j-bennet/wharfee/issues/89
