@@ -58,3 +58,5 @@ MENUITEMS = [
     ('Contact', '/contact.html'),
     ('Blog', '/category/blog.html'),
 ]
+
+GOOGLE_ANALYTICS = "UA-66237704-1"
