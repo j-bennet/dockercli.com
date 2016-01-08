@@ -48,7 +48,7 @@ EXTRA_PATH_METADATA = {
 THEME = '../pelican-themes/chameleon'
 #BS3_THEME = 'http://bootswatch.com/simplex/bootstrap.min.css'
 BS3_THEME = 'http://bootswatch.com/flatly/bootstrap.min.css'
-CSS_OVERWRITE = 'styles/custom.css'
+CSS_OVERWRITE = '/styles/custom.css'
 
 MENUITEMS = [
     ('Home', '/'),
