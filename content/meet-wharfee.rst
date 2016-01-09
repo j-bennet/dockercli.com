@@ -4,6 +4,7 @@ Meet wharfee
 :date: 2015-8-7
 :tags: python, docker, renaming
 :category: blog
+:author: Irina
 :slug: meet-wharfee
 
 Meet wharfee_ - previously named dockercli. It is a shell for Docker that can

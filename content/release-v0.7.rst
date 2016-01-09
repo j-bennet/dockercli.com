@@ -4,6 +4,7 @@ Release of wharfee v0.7
 :date: 2016-1-7
 :tags: python, wharfee, release
 :category: blog
+:author: Irina
 :slug: wharfee-release-v0.7
 
 `Wharfee`_ is a shell for Docker that can do autocompletion and syntax

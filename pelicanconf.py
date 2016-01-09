@@ -2,16 +2,19 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Iryna Cherniavska'
-AUTHORS = u'Iryna Cherniavska'
-SITENAME = u'wharfee'
+AUTHOR = 'Irina'
+AUTHOR_URL = 'http://github.com/j-bennet'
+AUTHORS = {
+    'Irina': 'http://github.com/j-bennet'
+}
+SITENAME = 'wharfee'
 SITEURL = 'http://wharfee.com'
 
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
