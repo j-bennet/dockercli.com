@@ -6,7 +6,7 @@
     <meta name="description" content="wharfee">
     <meta name="author" content="Irina">
 
-        <title>Release of wharfee v0.8 · wharfee</title>
+        <title>Release of wharfee v0.9 · wharfee</title>
 
 
     <!-- Bootstrap core CSS -->
@@ -88,7 +88,7 @@
       <div class="col-md-8">
         <div class="row">
               <div class="page-header">
-        <h1><a href="./wharfee-release-v0.8.html">Release of wharfee v0.8</a></h1>
+        <h1><a href="./wharfee-release-v0.9.html">Release of wharfee v0.9</a></h1>
     </div>
 
         </div>
@@ -107,7 +107,7 @@
           href="./tag/release.html">release</a>
     <!--<span class="glyphicon glyphicon-calendar"></span>-->
       <b> · </b>
-      <a href="./archives.html#Year2016">2016</a>-<a href="./archives.html#Year2016Month05">05</a>-<a href="./archives.html#Year2016Month05">10</a>
+      <a href="./archives.html#Year2016">2016</a>-<a href="./archives.html#Year2016Month07">07</a>-<a href="./archives.html#Year2016Month07">14</a>
 
     <!--<span class="glyphicon glyphicon-user"></span>-->
       <b> · </b>
@@ -119,20 +119,35 @@
   <div id="article_content">
     <p><a class="reference external" href="http://wharfee.com">Wharfee</a> is a shell for Docker that can do autocompletion and syntax
 highlighting, as well as some useful shortcuts.</p>
-<p>This is a minor release to keep up with <a class="reference external" href="http://github.com/jonathanslenders/python-prompt-toolkit">Python Prompt Toolkit</a> being
-updated to 1.0.0.</p>
+<p>It is now more stable than ever, thanks to newly added integration tests.</p>
+<p>New features in this release:</p>
+<ul class="simple">
+<li>Added <tt class="docutils literal"><span class="pre">-f/--force</span></tt> flag to <tt class="docutils literal">rm</tt> command.</li>
+<li>Added <tt class="docutils literal"><span class="pre">--detach-keys</span></tt> option to <tt class="docutils literal">attach</tt> command.</li>
+</ul>
+<p>Fixes and improvements:</p>
+<ul class="simple">
+<li>Fix exception in py3 when printing out <tt class="docutils literal">pull</tt> output.</li>
+<li>Fix exception in py3 when printing out <tt class="docutils literal">logs</tt> output.</li>
+<li>Fix exception in py2.6 when printing out <tt class="docutils literal">rm</tt> output.</li>
+<li>Fix bug in <tt class="docutils literal">rm <span class="pre">--all</span></tt> shortcut, which did not really remove stopped containers.</li>
+<li>Fix bug in <tt class="docutils literal">start</tt>, which was not called unless interactive flag was set.</li>
+<li>Fix output of <tt class="docutils literal">port</tt> command with no port mappings.</li>
+<li>Handle exception in <tt class="docutils literal">inspect</tt> when argument is not a container or image name.</li>
+<li><tt class="docutils literal">run</tt> now uses pexpect to call external cli, because new version of docker-py was throwing &quot;jack is incompatible with use of CloseNotifier in same ServeHTTP call&quot;.</li>
+</ul>
 
   </div>
 
   <hr/>
 
       <ul class="pager">
-        <li class="previous">
-          <a href="./wharfee-release-v0.9.html">
+        <li class="previous disabled">
+          <a >
           &laquo; Newer</a>
         </li>
         <li class="next">
-          <a href="./wharfee-release-v0.7.html">
+          <a href="./wharfee-release-v0.8.html">
           Older &raquo;</a>
         </li>
       </ul>
